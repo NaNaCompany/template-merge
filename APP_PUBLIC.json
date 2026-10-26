@@ -1,0 +1,59 @@
+{
+  "slug": "template-merge",
+  "url": "https://nanalab.kr/template-merge/",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ],
+  "locales": {
+    "ko": {
+      "name": "문서 일괄 템플릿 채우기",
+      "description": "CSV 열을 텍스트 템플릿 변수에 채워 여러 문서를 만들고 TXT·HTML·ZIP으로 저장하세요.",
+      "image_alt": "문서 일괄 템플릿 채우기"
+    },
+    "en": {
+      "name": "Template Merge",
+      "description": "Fill text-template variables from CSV columns to generate multiple documents and export TXT, HTML or ZIP files.",
+      "image_alt": "Template Merge"
+    },
+    "es": {
+      "name": "Combinar plantillas",
+      "description": "Rellena variables de plantillas de texto con columnas CSV para crear documentos y exportarlos en TXT, HTML o ZIP.",
+      "image_alt": "Combinar plantillas"
+    },
+    "zh": {
+      "name": "批量填充文档模板",
+      "description": "将 CSV 列填入文本模板变量，批量生成文档并导出 TXT、HTML 或 ZIP。",
+      "image_alt": "批量填充文档模板"
+    },
+    "ja": {
+      "name": "文書テンプレート一括作成",
+      "description": "CSVの列をテキストテンプレートの変数に差し込み、複数文書をTXT・HTML・ZIPで保存できます。",
+      "image_alt": "文書テンプレート一括作成"
+    },
+    "de": {
+      "name": "Vorlagen mit Daten füllen",
+      "description": "Füllen Sie Textvorlagen mit CSV-Spalten, erstellen Sie mehrere Dokumente und exportieren Sie TXT-, HTML- oder ZIP-Dateien.",
+      "image_alt": "Vorlagen mit Daten füllen"
+    },
+    "fr": {
+      "name": "Fusion de modèles",
+      "description": "Remplissez les variables d'un modèle de texte avec des colonnes CSV et exportez les documents en TXT, HTML ou ZIP.",
+      "image_alt": "Fusion de modèles"
+    },
+    "pt": {
+      "name": "Preenchimento de modelos",
+      "description": "Preencha variáveis de modelos de texto com colunas CSV para gerar documentos e exportar em TXT, HTML ou ZIP.",
+      "image_alt": "Preenchimento de modelos"
+    },
+    "ru": {
+      "name": "Заполнение шаблонов",
+      "description": "Заполняйте переменные текстового шаблона из столбцов CSV, создавайте документы и сохраняйте TXT, HTML или ZIP.",
+      "image_alt": "Заполнение шаблонов"
+    }
+  }
+}

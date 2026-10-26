@@ -1,0 +1,59 @@
+{
+  "ideaId": "W020",
+  "slug": "template-merge",
+  "title": "문서 일괄 템플릿 채우기",
+  "ready": true,
+  "summary": "CSV 문자열을 유지하는 로컬 텍스트 템플릿 병합과 개별 TXT/HTML·ZIP 내보내기",
+  "features": [
+    "{{column}} 변수 및 누락·빈값 검증",
+    "RFC4180 방식 인용 CSV 파싱",
+    "개별 문서 미리보기·복사·TXT·안전한 HTML",
+    "CRC32 ZIP 일괄 다운로드",
+    "입력 변경 시 이전 결과 무효화",
+    "6국어 수동 언어 메뉴"
+  ],
+  "tests": [
+    {
+      "name": "node --check dist/core.js, dist/app.js",
+      "pass": true
+    },
+    {
+      "name": "Node CSV/raw-string/template/HTML/locale-route fixtures",
+      "pass": true
+    },
+    {
+      "name": "Python zipfile independent CRC and UTF-8 content verification",
+      "pass": true
+    },
+    {
+      "name": "All six static localized HTML titles, correct html lang and exactly one ko/en/es/zh/ja/de menu identity",
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "브라우저 시각 QA 미실시",
+    "일반 텍스트 템플릿만 지원; HTML 서식 입력 불가",
+    "500행·100열·입력 2 MB·총 출력 5,000,000자",
+    "개인정보 포함 결과물은 사용자가 관리"
+  ],
+  "sources": [
+    "https://www.rfc-editor.org/rfc/rfc4180"
+  ],
+  "entry": "dist/index.html",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ],
+  "languageRoutes": {
+    "ko": "/",
+    "en": "/en/",
+    "es": "/es/",
+    "zh": "/zh/",
+    "ja": "/ja/",
+    "de": "/de/"
+  }
+}
